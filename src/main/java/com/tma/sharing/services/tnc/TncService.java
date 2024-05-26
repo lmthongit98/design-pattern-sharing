@@ -1,9 +1,17 @@
 package com.tma.sharing.services.tnc;
 
+import com.tma.sharing.services.outstanding.OutstandingAmountResolver;
+
 public abstract class TncService {
 
+    private final OutstandingAmountResolver outstandingAmountResolver;
+
+    protected TncService(OutstandingAmountResolver outstandingAmountResolver) {
+        this.outstandingAmountResolver = outstandingAmountResolver;
+    }
+
     protected Double getOutstandingAmount(String applicationId, String lenderToBeSent) {
-        return 0.0;
+        return outstandingAmountResolver.getOutstandingAmount(applicationId, lenderToBeSent);
     }
 
     protected void validateLenderToBeSent(String applicationId, String lenderToBeSent) {
