@@ -28,6 +28,12 @@ public abstract class TncService {
         }
     }
 
-    public abstract void sendTnc(String applicationId, String lenderToBeSent);
+    public void sendTnc(String applicationId, String lenderToBeSent) {
+        validateLenderToBeSent(applicationId, lenderToBeSent);
+        checkRenewalCase(applicationId, lenderToBeSent);
+        callLenderApi(applicationId);
+    }
+
+    public abstract void callLenderApi(String applicationId);
 
 }

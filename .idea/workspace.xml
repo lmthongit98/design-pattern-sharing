@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eadeb3c-2957-47fa-adb8-5e7664b8ac0e" name="Changes" comment="Problem with Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/outstanding/OutstandingAmountResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/outstanding/impl/InternalApiResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/outstanding/impl/LenderApiResolver.java" afterDir="false" />
+    <list default="true" id="5eadeb3c-2957-47fa-adb8-5e7664b8ac0e" name="Changes" comment="Favor Composition over Inheritance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tma/sharing/controllers/TncController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/controllers/TncController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/AbflTncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/AbflTncService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/BomTncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/BomTncService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/IdfcTncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/IdfcTncService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/PnbTncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/PnbTncService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/TncService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/services/tnc/TncService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,25 +36,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.com.tma.sharing.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tma.sharing.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tma.sharing.services.outstanding.impl" />
@@ -113,7 +105,8 @@
       <updated>1716719055399</updated>
       <workItem from="1716719056414" duration="115000" />
       <workItem from="1716719174234" duration="12000" />
-      <workItem from="1716719205250" duration="4903000" />
+      <workItem from="1716719205250" duration="7109000" />
+      <workItem from="1717082317686" duration="1581000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -131,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716729291563</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Favor Composition over Inheritance">
+      <option name="closed" value="true" />
+      <created>1716735467263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716735467263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="Problem with Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem with Inheritance" />
+    <MESSAGE value="Favor Composition over Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Favor Composition over Inheritance" />
   </component>
 </project>
