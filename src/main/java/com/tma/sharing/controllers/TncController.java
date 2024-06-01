@@ -1,5 +1,6 @@
 package com.tma.sharing.controllers;
 
+import com.tma.sharing.services.api.impl.AbflApiCalling;
 import com.tma.sharing.services.outstanding.OutstandingAmountResolver;
 import com.tma.sharing.services.outstanding.impl.InternalApiResolver;
 import com.tma.sharing.services.outstanding.impl.LenderApiResolver;
@@ -18,7 +19,7 @@ public class TncController {
         } else if (List.of("BOM", "IDFC").contains(lender)) {
             outstandingAmountResolver = new LenderApiResolver();
         }
-        TncService tncService = new AbflTncService(outstandingAmountResolver);
+        TncService tncService = new AbflTncService(outstandingAmountResolver, new AbflApiCalling());
         tncService.sendTnc(applicationId, lender);
     }
 
