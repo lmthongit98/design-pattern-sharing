@@ -1,6 +1,7 @@
 package com.tma.sharing.services.tnc;
 
 import com.tma.sharing.services.api.LenderApiCalling;
+import com.tma.sharing.services.factory.OutstandingResolverFactory;
 import com.tma.sharing.services.outstanding.OutstandingAmountResolver;
 
 public abstract class TncService {
@@ -8,8 +9,8 @@ public abstract class TncService {
     private final OutstandingAmountResolver outstandingAmountResolver;
     protected final LenderApiCalling lenderApiCalling;
 
-    protected TncService(OutstandingAmountResolver outstandingAmountResolver, LenderApiCalling lenderApiCalling) {
-        this.outstandingAmountResolver = outstandingAmountResolver;
+    protected TncService(OutstandingResolverFactory outstandingResolverFactory, LenderApiCalling lenderApiCalling) {
+        this.outstandingAmountResolver = outstandingResolverFactory.getOutstandingAmountResolver(getLender());
         this.lenderApiCalling = lenderApiCalling;
     }
 
@@ -38,5 +39,7 @@ public abstract class TncService {
     }
 
     protected abstract void callLenderApi(String applicationId);
+
+    public abstract String getLender();
 
 }
