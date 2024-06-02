@@ -15,7 +15,7 @@ Co-lending flow includes 3 stages:
 
 ## Design the **sendTnc** Flow
 
-![](/Users/lminhthong/Workspace/Design_Patterns-Tnc-Sequence.drawio.png)
+![Design_Patterns-Tnc-Sequence drawio](https://github.com/lmthongit98/design-pattern-sharing/assets/75925571/0d33bedf-676f-4670-a743-826743198d32)
 
 
 ## Design Patterns Used
