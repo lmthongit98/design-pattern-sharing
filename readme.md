@@ -24,7 +24,7 @@ Co-lending flow includes 3 stages:
 The `OutstandingResolverFactory` and `TncServiceFactory` classes are examples of the Factory Pattern, which helps in creating objects without exposing the instantiation logic to the client.
 
 ### Strategy Pattern
-The `LenderApiCalling` interface and its implementations (`PnbApiCalling`, `IdfcApiCalling`, etc.) demonstrate the Strategy Pattern, allowing the algorithm to vary independently from clients that use it.
+The `OutstandingAmountResolver` interface and its implementations (`InternalApiResolver`, `LenderApiResolver`, etc.) demonstrate the Strategy Pattern, allowing the algorithm to vary independently from clients that use it.
 
 ### Template Method Pattern
 The `TncService` class uses the Template Method Pattern, defining the skeleton of an algorithm and allowing subclasses to define certain steps of the algorithm without changing its structure.
