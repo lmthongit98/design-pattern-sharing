@@ -1,14 +1,14 @@
-package com.tma.sharing;
+package com.tma.sharing.casestudies.tnc;
 
-import com.tma.sharing.controllers.TncController;
-import com.tma.sharing.services.api.impl.AbflApiCalling;
-import com.tma.sharing.services.api.impl.PnbApiCalling;
-import com.tma.sharing.services.factory.OutstandingResolverFactory;
-import com.tma.sharing.services.factory.TncServiceFactory;
-import com.tma.sharing.services.outstanding.impl.InternalApiResolver;
-import com.tma.sharing.services.outstanding.impl.LenderApiResolver;
-import com.tma.sharing.services.tnc.AbflTncService;
-import com.tma.sharing.services.tnc.PnbTncService;
+import com.tma.sharing.casestudies.tnc.controllers.TncController;
+import com.tma.sharing.casestudies.tnc.services.api.impl.AbflApiCalling;
+import com.tma.sharing.casestudies.tnc.services.api.impl.PnbApiCalling;
+import com.tma.sharing.casestudies.tnc.services.factory.OutstandingResolverFactory;
+import com.tma.sharing.casestudies.tnc.services.factory.TncServiceFactory;
+import com.tma.sharing.casestudies.tnc.services.outstanding.impl.InternalApiResolver;
+import com.tma.sharing.casestudies.tnc.services.outstanding.impl.LenderApiResolver;
+import com.tma.sharing.casestudies.tnc.services.tnc.AbflTncService;
+import com.tma.sharing.casestudies.tnc.services.tnc.PnbTncService;
 
 import java.util.List;
 

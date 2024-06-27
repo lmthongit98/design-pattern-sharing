@@ -1,8 +1,8 @@
-package com.tma.sharing.services.tnc;
+package com.tma.sharing.casestudies.tnc.services.tnc;
 
-import com.tma.sharing.services.api.LenderApiCalling;
-import com.tma.sharing.services.factory.OutstandingResolverFactory;
-import com.tma.sharing.services.outstanding.OutstandingAmountResolver;
+import com.tma.sharing.casestudies.tnc.services.api.LenderApiCalling;
+import com.tma.sharing.casestudies.tnc.services.factory.OutstandingResolverFactory;
+import com.tma.sharing.casestudies.tnc.services.outstanding.OutstandingAmountResolver;
 
 public abstract class TncService {
 

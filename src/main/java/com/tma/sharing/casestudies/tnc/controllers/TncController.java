@@ -1,7 +1,7 @@
-package com.tma.sharing.controllers;
+package com.tma.sharing.casestudies.tnc.controllers;
 
-import com.tma.sharing.services.factory.TncServiceFactory;
-import com.tma.sharing.services.tnc.TncService;
+import com.tma.sharing.casestudies.tnc.services.factory.TncServiceFactory;
+import com.tma.sharing.casestudies.tnc.services.tnc.TncService;
 
 public class TncController {
 

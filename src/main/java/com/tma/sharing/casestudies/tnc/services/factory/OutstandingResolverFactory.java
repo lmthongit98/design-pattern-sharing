@@ -1,6 +1,6 @@
-package com.tma.sharing.services.factory;
+package com.tma.sharing.casestudies.tnc.services.factory;
 
-import com.tma.sharing.services.outstanding.OutstandingAmountResolver;
+import com.tma.sharing.casestudies.tnc.services.outstanding.OutstandingAmountResolver;
 
 import java.util.HashMap;
 import java.util.List;

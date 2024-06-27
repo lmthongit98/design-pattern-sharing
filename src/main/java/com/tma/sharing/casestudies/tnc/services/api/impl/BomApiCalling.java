@@ -1,6 +1,6 @@
-package com.tma.sharing.services.api.impl;
+package com.tma.sharing.casestudies.tnc.services.api.impl;
 
-import com.tma.sharing.services.api.LenderApiCalling;
+import com.tma.sharing.casestudies.tnc.services.api.LenderApiCalling;
 
 public class BomApiCalling implements LenderApiCalling {
     @Override

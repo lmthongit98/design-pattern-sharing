@@ -1,7 +1,7 @@
-package com.tma.sharing.services.tnc;
+package com.tma.sharing.casestudies.tnc.services.tnc;
 
-import com.tma.sharing.services.api.impl.IdfcApiCalling;
-import com.tma.sharing.services.factory.OutstandingResolverFactory;
+import com.tma.sharing.casestudies.tnc.services.api.impl.IdfcApiCalling;
+import com.tma.sharing.casestudies.tnc.services.factory.OutstandingResolverFactory;
 
 public class IdfcTncService extends TncService {
 

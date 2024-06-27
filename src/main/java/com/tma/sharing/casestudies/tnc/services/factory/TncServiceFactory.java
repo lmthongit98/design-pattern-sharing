@@ -1,6 +1,6 @@
-package com.tma.sharing.services.factory;
+package com.tma.sharing.casestudies.tnc.services.factory;
 
-import com.tma.sharing.services.tnc.TncService;
+import com.tma.sharing.casestudies.tnc.services.tnc.TncService;
 
 import java.util.List;
 import java.util.Map;

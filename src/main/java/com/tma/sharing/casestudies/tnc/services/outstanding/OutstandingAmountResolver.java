@@ -1,4 +1,4 @@
-package com.tma.sharing.services.outstanding;
+package com.tma.sharing.casestudies.tnc.services.outstanding;
 
 import java.util.List;
 

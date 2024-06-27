@@ -1,6 +1,6 @@
-package com.tma.sharing.services.outstanding.impl;
+package com.tma.sharing.casestudies.tnc.services.outstanding.impl;
 
-import com.tma.sharing.services.outstanding.OutstandingAmountResolver;
+import com.tma.sharing.casestudies.tnc.services.outstanding.OutstandingAmountResolver;
 
 import java.util.List;
 
