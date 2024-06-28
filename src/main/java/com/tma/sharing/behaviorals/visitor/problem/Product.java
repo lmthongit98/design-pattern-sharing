@@ -10,7 +10,4 @@ public abstract class Product {
 
     public abstract double applySeasonalDiscount();
 
-    public double getPrice() {
-        return price;
-    }
 }

@@ -1,5 +1,7 @@
 package com.tma.sharing.behaviorals.visitor.solution;
 
+import com.tma.sharing.behaviorals.visitor.problem.Product;
+
 public class DiscountService {
 
    public double applySeasonalDiscount(Electronics electronic) {

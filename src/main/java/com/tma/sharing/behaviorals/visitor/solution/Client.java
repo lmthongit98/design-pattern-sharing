@@ -13,21 +13,13 @@ public class Client {
                 new Groceries(20)
         );
 
-        double discountedPrice = 0;
+        SeasonalDiscountVisitor visitor = new SeasonalDiscountVisitor();
 
-        DiscountService discountService = new DiscountService();
-
-        for(Product product : products) {
-            if (product instanceof Clothes clothes) {
-                discountedPrice += discountService.applySeasonalDiscount(clothes);
-            } else if (product instanceof Groceries groceries) {
-                discountedPrice += discountService.applySeasonalDiscount(groceries);
-            } else if (product instanceof Electronics electronics) {
-                discountedPrice += discountService.applySeasonalDiscount(electronics);
-            }
+        for (Product product: products) {
+            product.accept(visitor);
         }
 
-        System.out.println("Discounted price: " + discountedPrice);
+        System.out.println("Discounted price: " + visitor.getDiscountedPrice());
 
 
     }

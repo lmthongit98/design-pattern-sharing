@@ -8,7 +8,12 @@ public abstract class Product {
         this.price = price;
     }
 
+
+
+    public abstract void accept(Visitor visitor);
+
     public double getPrice() {
         return price;
     }
+
 }

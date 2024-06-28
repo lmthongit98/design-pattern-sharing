@@ -6,5 +6,10 @@ public class Groceries extends Product {
         super(price);
     }
 
+    @Override
+    public void accept(Visitor visitor) { /// Seasonal Visitor , this: Groceries, visit(Groceries)
+        visitor.visit(this);
+    }
+
 
 }
