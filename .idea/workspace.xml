@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eadeb3c-2957-47fa-adb8-5e7664b8ac0e" name="Changes" comment="composite">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/models/AudioBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/models/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/models/EBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/models/Updatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/repositories/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/repositories/impl/AudioBookRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/repositories/impl/BookRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/repositories/impl/EBookRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/services/BookStatusUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/services/impl/AudioBookUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/services/impl/BookUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/services/impl/EBookUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tma/sharing/casestudies/bookupdate/services/impl/GenericBookStatusUpdater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5eadeb3c-2957-47fa-adb8-5e7664b8ac0e" name="Changes" comment="factory pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Client.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.com.tma.sharing.Main.executor": "Run",
     "Application.com.tma.sharing.casestudies.bookupdate.Main.executor": "Run",
@@ -62,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lminhthong/Workspace/java/my-projects/design-pattern-sharing/src/main/java/com/tma/sharing/creationals",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +59,13 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/tma/sharing/creationals" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/tma/sharing/behaviorals" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/tma/sharing/behaviorals/visitor" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tma.sharing.behaviorals" />
       <recent name="com.tma.sharing.casestudies.bookupdate.models" />
       <recent name="com.tma.sharing.casestudies.bookupdate.services" />
     </key>
@@ -84,13 +75,13 @@
       <recent name="com.tma.sharing.tnc.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.tma.sharing.casestudies.bookupdate.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tma.sharing.tnc.Main" />
+  <component name="RunManager" selected="Application.com.tma.sharing.structurals.bridge.example2.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tma.sharing.creationals.factorymethod.Client" />
       <module name="design-pattern-sharing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tma.sharing.tnc.*" />
+          <option name="PATTERN" value="com.tma.sharing.creationals.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +115,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.tma.sharing.structurals.bridge.example1.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tma.sharing.structurals.bridge.example1.Client" />
+      <module name="design-pattern-sharing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tma.sharing.structurals.bridge.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tma.sharing.structurals.bridge.example2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tma.sharing.structurals.bridge.example2.Client" />
+      <module name="design-pattern-sharing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tma.sharing.structurals.bridge.example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.tma.sharing.structurals.bridge.example2.Client" />
+        <item itemvalue="Application.com.tma.sharing.structurals.bridge.example1.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.tma.sharing.casestudies.bookupdate.Main" />
         <item itemvalue="Application.com.tma.sharing.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +172,7 @@
       <workItem from="1717082317686" duration="6127000" />
       <workItem from="1717246171888" duration="6231000" />
       <workItem from="1731767576946" duration="1690000" />
-      <workItem from="1731858328658" duration="3637000" />
+      <workItem from="1731858328658" duration="4233000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -195,7 +214,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717253259546</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="case study: book status update">
+      <option name="closed" value="true" />
+      <created>1731862140293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731862140293</updated>
+    </task>
+    <task id="LOCAL-00007" summary="command and momento">
+      <option name="closed" value="true" />
+      <created>1731862515972</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731862515972</updated>
+    </task>
+    <task id="LOCAL-00008" summary="factory pattern">
+      <option name="closed" value="true" />
+      <created>1731862565874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731862565874</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +261,9 @@
     <MESSAGE value="Favor Composition over Inheritance" />
     <MESSAGE value="template method" />
     <MESSAGE value="bridge pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="bridge pattern" />
+    <MESSAGE value="case study: book status update" />
+    <MESSAGE value="command and momento" />
+    <MESSAGE value="factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory pattern" />
   </component>
 </project>
