@@ -32,7 +32,4 @@ public abstract class GenericBookStatusUpdater<T extends Updatable> implements B
 
     protected abstract boolean validateStatusChange(T book, String oldStatus, String newStatus);
 
-    private void logStatusChange(AudioBook book, String newStatus) {
-        System.out.println("Logging status change for AudioBook: " + book.getTitle() + " to " + newStatus);
-    }
 }
